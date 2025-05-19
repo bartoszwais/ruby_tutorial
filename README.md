@@ -1,5 +1,6 @@
 Welcome to the XMAS tree generator!
 info: just made very basic version of my xmas tree generator, it generates tree base on number after slash e.g.
+this experimental app was made in sinatra rb, Ruby web framework. 
 
 https://ruby-tutorial-3icp.onrender.com/12
 
