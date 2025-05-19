@@ -1,6 +1,21 @@
 require 'sinatra'
 get '/' do
-    "Welcome to the x mas tree generator!"
+    "<style>body {text-align:center}</style>
+    <html><head><title>XMAS Tree generator</title></head>
+    <body>
+    <h1>Welcome to the XMAS tree generator!</h1>
+    <p>info: just made very basic version of my xmas tree generator,
+    it generates tree base on number after slash e.g.</p
+    <br>
+    <a href='https://ruby-tutorial-3icp.onrender.com/12'>https://ruby-tutorial-3icp.onrender.com/12</a>
+    <br>
+    <a href='https://ruby-tutorial-3icp.onrender.com/33'>https://ruby-tutorial-3icp.onrender.com/33</a>
+    <br>
+    <a href='https://ruby-tutorial-3icp.onrender.com/99'>https://ruby-tutorial-3icp.onrender.com/99</a>
+    <br>
+    <a href='https://ruby-tutorial-3icp.onrender.com/1001'>https://ruby-tutorial-3icp.onrender.com/1001</a>
+</body>
+</html>"
 end
 get '/:level' do
     if params['level'].to_i < 1
